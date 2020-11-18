@@ -1,3 +1,5 @@
+# Really basic website bot, dont question why i made this
+
 import pyautogui
 import keyboard
 from selenium import webdriver

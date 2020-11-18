@@ -1,3 +1,5 @@
+# Template for making a basic email bot
+
 import smtplib, ssl
 
 port = 587  # For starttls

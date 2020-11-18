@@ -1,3 +1,5 @@
+# There are currently bugs with this current file
+
 import hashlib
 
 flag = 0

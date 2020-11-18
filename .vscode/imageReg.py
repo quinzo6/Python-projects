@@ -1,3 +1,5 @@
+# Test code, replace images with custom image files
+
 import pyautogui
 import keyboard
 import time

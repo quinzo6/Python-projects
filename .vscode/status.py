@@ -1,3 +1,5 @@
+# Discord status changer, dont bully me
+
 import pyautogui
 import time
 import keyboard
