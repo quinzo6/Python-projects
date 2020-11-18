@@ -15,13 +15,15 @@ if start == "yes":
 
     total_time = end_time - start_time
     rounded_time = int(total_time)
-    calculated_time =  (137 * 60) / rounded_time
-    final_wpm = str(calculated_time)
+
+    def time(unrounded_time):
+        final_wpm = (137 * 60) / unrounded_time
+        return str(final_wpm)
 
     if text == "Editing is a growing field of work in the service industry. Paid editing services may be provided by specialized editing firms or by self-employed (freelance) editors. Editing firms may employ a team of in-house editors, rely on a network of individual contractors or both. Such firms are able to handle editing in a wide range of topics and genres, depending on the skills of individual editors. The services provided by these editors may be varied and can include proofreading, copy editing, online editing, developmental editing, editing for search engine optimization (SEO), etc. Self-employed editors work directly for clients or offer their services through editing firms, or both. They may specialize in a type of editing and in a particular subject area. Those who work directly for authors and develop professional relationships with them are called authors' editors.":
-        print("Your wpm is " + final_wpm + "!")
+        print("Your wpm is " + time(rounded_time) + "!")
     else:
-        print("Your wpm is " + final_wpm + "!")
+        print("Your wpm is " + time(rounded_time) + "!")
 else:
     print("Script ended")
     exit() 
