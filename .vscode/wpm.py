@@ -24,4 +24,4 @@ if start == "yes":
         print("Your wpm is " + final_wpm + "!")
 else:
     print("Script ended")
-    exit()
+    exit() 
